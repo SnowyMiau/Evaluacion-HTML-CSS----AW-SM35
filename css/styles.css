@@ -1,0 +1,254 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    background-color: rgb(55, 168, 255);
+}
+
+.correo-electronico {
+    display: flex;
+    padding: 8px;
+}
+
+.correo-electronico p{
+    margin-right: 30px;
+    padding-left: 30px;
+}
+.buscador-redes{
+    display: flex;
+    justify-content: right;
+    margin-left: 60%;
+}
+
+.buscador-redes input{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 3px;
+    padding-left: 10px;
+    border:none;
+}
+
+.buscador-redes button{
+    background-color: rgb(45, 87, 255);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    border:none;
+    
+}
+
+.buscador-redes button:hover{
+    background-color: rgb(0, 115, 255);
+
+}
+
+/*Navegacion*/
+
+.navegacion{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navegacion a{
+    margin-right: 30px;
+    margin-left: 30px; 
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/*Toda la bienvenida*/
+
+.hero{
+        background-image: url('/img/imagen1.jpg');
+        background-size: cover;
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 30px;
+}
+
+.bienvenida{
+    text-align: center;
+}
+
+.bienvenida h1{
+    font-size: 60px;
+    color: white;
+}
+
+.bienvenida button{
+    text-decoration: none;
+    background-color: rgba(34, 130, 255, 0.305);
+    padding: 10px 30px ;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.bienvenida button:hover{
+    background-color: rgb(34, 130, 255);
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+}
+
+.user h2{
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+/*Siguiente seccion*/
+
+.seccion-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.seccion-1 img{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.fondo-seccion{
+    background-color: rgba(0, 120, 225, 0.388);
+}
+
+.fondo-seccion h3{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.seccion-2{
+    display: flex;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 60px;
+}
+
+.seccion-2 p{
+    margin-left: 40px;
+}
+
+/*Productos seccion*/
+
+.seccion-3 h4{
+    text-align: center;
+    font-size: 50px;
+}
+
+.contenedor-2{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.bloque-productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Ajusta este valor según sea necesario */
+    margin-bottom: 100px;
+}
+
+.productos{
+    background-color: rgba(70, 141, 241, 0.653);
+    text-align: center;
+    height: 445px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Puedes ajustar este margen si es necesario */
+}
+
+.productos img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.productos p{
+    margin-bottom: 30px;
+    
+}
+
+.productos h5{
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.productos h5, p{
+    text-align: center;
+    margin-bottom: 20px; /* Ajusta este valor según sea necesario */ /* Ajusta este valor según sea necesario */
+}
+
+.productos a{
+    background-color: rgba(255, 255, 255, 0.834);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.productos a:hover{
+    background-color: rgb(89, 117, 255);
+    transition: 0.8s;
+    
+}
+
+/*footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Ajusta el padding según sea necesario */
+}
+
+.navegacion-footer {
+    display: flex;
+    align-items: center;
+}
+
+.navegacion-footer a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+}
+
+.navegacion-footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.contenedor-footer p {
+    margin: 0;
+}
