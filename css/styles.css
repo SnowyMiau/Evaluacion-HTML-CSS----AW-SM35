@@ -69,7 +69,7 @@ header {
 /*Toda la bienvenida*/
 
 .hero {
-    background-image: url('/img/imagen1.jpg');
+    background-image: url('https://www.wepc.com/wp-content/uploads/2021/03/346969.8367693bd13be6b788edcdd5c57fa79e.1600.jpg');
     background-size: cover;
     height: 50vh;
     background-position: center;
